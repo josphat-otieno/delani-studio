@@ -42,5 +42,5 @@ The following technologies were used in building up the project:
 ## Contact Inforamtion
  Phone: +254717878813
 
- Email address: josephatotieno92@gmail.com
+ Email address: josephat.otieno@student.moringaschool.com
 
