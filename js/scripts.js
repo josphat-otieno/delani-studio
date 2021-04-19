@@ -1,25 +1,16 @@
 $(document).ready(function(){
-    $("#design").click(function(){
+    $("#pp1").click(function(){
         $("#design").fadeToggle()
-        $("#p1").toggle(function(click){
-            $("this").fadeToggle()
-        })
-        
-    })
-    $("#development").click(function(){
-        $("#development").toggle()
-        $("#p2").toggle(function(click){
-            $("this").fadeOut()
-        })
-        
-    })
-    $("#product").click(function(){
-        $("#product").toggle()
-        $("#p3").toggle(function(click){
-            $("this").fadeOut()
-        })
-        
-    })
+        $("#p1").fadeToggle();
+    });
+    $("#pp2").click(function(){
+        $("#development").fadeToggle()
+        $("#p2").fadeToggle();
+    });
+    $("#pp3").click(function(){
+        $("#product").fadeToggle()
+        $("#p3").fadeToggle();
+    });
     $("#images").animate({
         opacity:1
  
