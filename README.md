@@ -1,7 +1,7 @@
 ### Project Name
  Delani Studio
 ## Description
- The project is about creation of a fictional studio called Delani Studio. It is main purpose is to demonstarte the power of javasscript , jQuery CSS And Bootstrap.
+ The project is about creation of a fictional studio called Delani Studio. It is main purpose is to demonstarte the power of javasscript , jQuery, CSS And Bootstrap.
 
 ## About the Author
 Name : Josepat Otieno.
@@ -21,11 +21,11 @@ You can use the following steps to access this project on you machine:
  
   <p>The page the shows the About Section which describes more about the studio, it's capabilities and why you may need to hire it.</p>
 
-  <p>The projetc has the `What We Do` section that show the three main  stages of development. That is;design, development and product management. Upon clicking on each image, the user should toggle between the description and the images.</p>
+  <p>The projetc has the <strong>What We Do</strong> section that show the three main  stages of development. That is;<strong>design</strong>, <strong>development</strong> and <strong>product management<strong>. Upon clicking on each image, the user should toggle between the description and the images.</p>
 
   <p>The portfolio section contains the list of projects completed by the Delani Studio. Upon hovering the mouse over each project image, the user should see the title of the project.</p>
 
-  <p>The contact us section contains a section for user to enter their `name`, `email address` and leave a `message`.
+  <p>The contact us section contains a section for user to enter their <strong>name</strong>,  <strong>email addressname</strong>  and leave a <strong>message</strong>>.
  Upon clicking the submit button, the user gets an alert containing their name and a thankful message.</p>
 
  <p>The footer section contains social media icons for studio.</p>
