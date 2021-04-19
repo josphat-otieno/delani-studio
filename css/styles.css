@@ -1,0 +1,67 @@
+
+  .container{
+    text-align: center;
+    position: relative;
+  }
+  .container1, .row {
+    text-align: center;
+    
+  }
+  .centered{
+      position: absolute;
+      top: 14%;
+       left: 27%;
+      transform: translate(-50% -50%);
+      color: white;
+      font-size: xx-large;
+      text-align: center;
+  }
+  #h3{
+      font-size: small;
+  }
+  #cotainer2{
+    position: relative;
+    text-align: center;
+  }
+  .center{
+    position: absolute;
+    top: 20%;
+    /* left: 50%; */
+    transform: translate(-50% -50%);
+    color: white;
+    font-size: xx-large;
+    text-align: center;
+  }
+  .images{
+    position: relative;
+    height: 300px;
+    width: 300px;
+  }
+  #p1, #p2, #p3{
+    display: none;
+  }
+  #jim, #pyramid, #ontario, #black, #day, #press, #logo, #giraffe{
+    display: none;
+  }
+  .contact{
+    background-image: src="assets/backgrounds/c_image.jpg" alt="" width="1300";
+  }
+  /* .form{ 
+       position: absolute;
+       top: auto;
+       left: 27%;
+       transform: translate(-50% -50%);
+       color: white;
+       font-size: xx-large;
+       text-align: center;
+  } */
+  /* .carousel-caption{
+    position: absolute;
+      top: 10%;
+       left: 40%;
+      transform: translate(-50% -50%);
+      color: white;
+      font-size: xx-large;
+      text-align: center;
+  }
+   */
