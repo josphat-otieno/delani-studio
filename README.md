@@ -4,17 +4,17 @@
  The project is about creation of a fictional studio called Delani Studio. It is main purpose is to demonstarte the power of javasscript , jQuery, CSS And Bootstrap.
 
 ## About the Author
-Name : Josepat Otieno.
-The author is a student at Moringa School taking Software Development course.
+ Name : Josepat Otieno.
+ The author is a student at Moringa School taking Software Development course.
 ## Set up instructions
-You need to have git installed on your machine. You can install it with the following command in the terminal
-`$ sudo apt install git-all`
-You can use the following steps to access this project on you machine:
-1. Open your terminal and use this command to clone `$ git clone https://github.com/josphat-otieno/delani-studio.git`
-2. This will clone the repository into your local machine.
-3. Open the terminal on your machine and navigate to the root folder of the application  `$cd akan-project`
-4. Open index.html on your browser.
-5. Here is the live link to the website `https://josphat-otieno.github.io/delani-studio/`
+ You need to have git installed on your machine. You can install it with the following command in the terminal
+ `$ sudo apt install git-all`
+ You can use the following steps to access this project on you machine:
+ 1. Open your terminal and use this command to clone `$ git clone https://github.com/josphat-otieno/delani-studio.git`
+ 2. This will clone the repository into your local machine.
+ 3. Open the terminal on your machine and navigate to the root folder of the application  `$cd akan-project`
+ 4. Open index.html on your browser.
+ 5. Here is the live link to the website `https://josphat-otieno.github.io/delani-studio/`
 
 ## Behaviour Driven Development
 <p>Displays a landing page that shows the studio profile picture name and the logo of the studio.</p>
@@ -25,7 +25,7 @@ You can use the following steps to access this project on you machine:
 
   <p>The portfolio section contains the list of projects completed by the Delani Studio. Upon hovering the mouse over each project image, the user should see the title of the project.</p>
 
-  <p>The contact us section contains a section for user to enter their <strong>name</strong>,  <strong>email addressname</strong>  and leave a <strong>message</strong>>.
+  <p>The contact us section contains a section for user to enter their <strong>name</strong>,  <strong>email address</strong>  and leave a <strong>message</strong>.
  Upon clicking the submit button, the user gets an alert containing their name and a thankful message.</p>
 
  <p>The footer section contains social media icons for studio.</p>
@@ -44,3 +44,4 @@ The following technologies were used in building up the project:
 
  Email address: josephat.otieno@student.moringaschool.com
 
+ Email address: josephatotieno92@gmai.com
