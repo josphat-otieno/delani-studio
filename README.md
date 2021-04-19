@@ -21,7 +21,7 @@ You can use the following steps to access this project on you machine:
  
   <p>The page the shows the About Section which describes more about the studio, it's capabilities and why you may need to hire it.</p>
 
-  <p>The projetc has the <strong>What We Do</strong> section that show the three main  stages of development. That is;<strong>design</strong>, <strong>development</strong> and <strong>product management<strong>. Upon clicking on each image, the user should toggle between the description and the images.</p>
+  <p>The projetc has the <strong>What We Do</strong> section that show the three main  stages of development. That is;<strong>design</strong>, <strong>development</strong> and <strong>product management</strong>. Upon clicking on each image, the user should toggle between the description and the images.</p>
 
   <p>The portfolio section contains the list of projects completed by the Delani Studio. Upon hovering the mouse over each project image, the user should see the title of the project.</p>
 
