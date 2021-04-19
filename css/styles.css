@@ -46,18 +46,23 @@
   #contact{
     background-image: url('./c_image.jpg');
     transform: translate(-50% -50%);
-    color: black;
+    /* color: black; */
     font-size: large;
     text-align: center;
-    /* background: rgb(0, 0, 0); */
-    /* background: rgba(0, 0, 0, 0.5);  */
+
  }
 .content{
-  background: rgb(0, 0, 0); 
-  background: rgba(0, 0, 0, 0.5);
   color: #f1f1f1;
   width: 100%;
   padding: 20px;
+ }
+ #message, #pname, #mail{
+   background-color: rgba(0, 0, 0, 0);
+    border-color: rgba(0, 0, 0, 0)";
+ }
+ .forms{
+   border: whitesmoke;
+   color: white;
  }
 
  
