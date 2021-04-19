@@ -15,7 +15,6 @@ $(document).ready(function(){
         opacity:1
  
  });
- 
  $("work1").hover(function() {
      $(this).stop().animate({opacity:.4},200);
      $("#jim").fadeIn();
