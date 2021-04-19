@@ -1,4 +1,4 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
   .container{
     text-align: center;
     position: relative;
@@ -33,7 +33,6 @@
     text-align: center;
   }
   .images{
-    position: relative;
     height: 300px;
     width: 300px;
   }
@@ -43,25 +42,22 @@
   #jim, #pyramid, #ontario, #black, #day, #press, #logo, #giraffe{
     display: none;
   }
-  .contact{
-    background-image: src="assets/backgrounds/c_image.jpg" alt="" width="1300";
-  }
-  /* .form{ 
-       position: absolute;
-       top: auto;
-       left: 27%;
-       transform: translate(-50% -50%);
-       color: white;
-       font-size: xx-large;
-       text-align: center;
-  } */
-  /* .carousel-caption{
-    position: absolute;
-      top: 10%;
-       left: 40%;
-      transform: translate(-50% -50%);
-      color: white;
-      font-size: xx-large;
-      text-align: center;
-  }
-   */
+  
+  #contact{
+    background-image: url('./c_image.jpg');
+    transform: translate(-50% -50%);
+    color: black;
+    font-size: large;
+    text-align: center;
+    /* background: rgb(0, 0, 0); */
+    /* background: rgba(0, 0, 0, 0.5);  */
+ }
+.content{
+  background: rgb(0, 0, 0); 
+  background: rgba(0, 0, 0, 0.5);
+  color: #f1f1f1;
+  width: 100%;
+  padding: 20px;
+ }
+
+ 
