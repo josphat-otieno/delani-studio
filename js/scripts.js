@@ -17,7 +17,7 @@ $(document).ready(function(){
  });
     $("#work1").hover(function() {
      $(this).stop().animate({opacity:.4},200);
-     $("#jim").fadeIn();
+     $("#jim").slideToggle();
  
  }, function() {
      $(this).stop().animate({opacity:1},500)
@@ -25,7 +25,7 @@ $(document).ready(function(){
  });
  $("#work2").hover(function() {
     $(this).stop().animate({opacity:.4},200);
-    $("#pyramid").fadeIn();
+    $("#pyramid").slideToggle();
 
 }, function() {
     $(this).stop().animate({opacity:1},500)
@@ -33,7 +33,7 @@ $(document).ready(function(){
 });
 $("#work3").hover(function() {
     $(this).stop().animate({opacity:.4},200);
-    $("#ontario").fadeIn();
+    $("#ontario").slideToggle();
 
 }, function() {
     $(this).stop().animate({opacity:1},500)
@@ -41,7 +41,7 @@ $("#work3").hover(function() {
 });
 $("#work4").hover(function() {
     $(this).stop().animate({opacity:.4},200);
-    $("#black").fadeIn();
+    $("#black").slideToggle();
 
 }, function() {
     $(this).stop().animate({opacity:1},500)
@@ -49,7 +49,7 @@ $("#work4").hover(function() {
 });
 $("#work5").hover(function() {
     $(this).stop().animate({opacity:.4},200);
-    $("#day").fadeIn();
+    $("#day").slideToggle();
 
 }, function() {
     $(this).stop().animate({opacity:1},500)
@@ -57,7 +57,7 @@ $("#work5").hover(function() {
 });
 $("#work6").hover(function() {
     $(this).stop().animate({opacity:.4},200);
-    $("#press").fadeIn();
+    $("#press").slideToggle();
 
 }, function() {
     $(this).stop().animate({opacity:1},500)
@@ -65,7 +65,7 @@ $("#work6").hover(function() {
 });
 $("#work7").hover(function() {
     $(this).stop().animate({opacity:.4},200);
-    $("#logo").fadeIn();
+    $("#logo").slideToggle();
 
 }, function() {
     $(this).stop().animate({opacity:1},500)
@@ -73,7 +73,7 @@ $("#work7").hover(function() {
 });
 $("#work8").hover(function() {
     $(this).stop().animate({opacity:.4},200);
-    $("#giraffe").fadeIn();
+    $("#giraffe").slideToggle();
 
 }, function() {
     $(this).stop().animate({opacity:1},500)
