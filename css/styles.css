@@ -5,6 +5,7 @@
   }
   .container1, .row {
     text-align: center;
+
     
   }
   .centered{
@@ -36,15 +37,20 @@
     height: 300px;
     width: 300px;
   }
-  #work1:hover + #jim{
+  /* .images:hover{
     display: block;
     opacity: 0.5;
-  }
+  } */
   #p1, #p2, #p3{
     display: none;
   }
   #jim, #pyramid, #ontario, #black, #day, #press, #logo, #giraffe{
-    display: none;
+    position: relative;  
+    display: none; 
+    background-color: whitesmoke;
+    color: chartreuse;
+    border: 1px solid white;
+
   }
   
   #contact{
