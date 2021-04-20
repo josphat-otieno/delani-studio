@@ -11,11 +11,11 @@ $(document).ready(function(){
         $("#product").fadeToggle()
         $("#p3").fadeToggle();
     });
-    $("#images").animate({
-        opacity:1
+     $("#images").animate({
+         opacity:1
  
  });
- $("work1").hover(function() {
+    $("#work1").hover(function() {
      $(this).stop().animate({opacity:.4},200);
      $("#jim").fadeIn();
  
@@ -23,6 +23,62 @@ $(document).ready(function(){
      $(this).stop().animate({opacity:1},500)
      $("#jim").fadeOut();
  });
+ $("#work2").hover(function() {
+    $(this).stop().animate({opacity:.4},200);
+    $("#pyramid").fadeIn();
+
+}, function() {
+    $(this).stop().animate({opacity:1},500)
+    $("#pyramid").fadeOut();
+});
+$("#work3").hover(function() {
+    $(this).stop().animate({opacity:.4},200);
+    $("#ontario").fadeIn();
+
+}, function() {
+    $(this).stop().animate({opacity:1},500)
+    $("#ontario").fadeOut();
+});
+$("#work4").hover(function() {
+    $(this).stop().animate({opacity:.4},200);
+    $("#black").fadeIn();
+
+}, function() {
+    $(this).stop().animate({opacity:1},500)
+    $("#black").fadeOut();
+});
+$("#work5").hover(function() {
+    $(this).stop().animate({opacity:.4},200);
+    $("#day").fadeIn();
+
+}, function() {
+    $(this).stop().animate({opacity:1},500)
+    $("#day").fadeOut();
+});
+$("#work6").hover(function() {
+    $(this).stop().animate({opacity:.4},200);
+    $("#press").fadeIn();
+
+}, function() {
+    $(this).stop().animate({opacity:1},500)
+    $("#press").fadeOut();
+});
+$("#work7").hover(function() {
+    $(this).stop().animate({opacity:.4},200);
+    $("#logo").fadeIn();
+
+}, function() {
+    $(this).stop().animate({opacity:1},500)
+    $("#logo").fadeOut();
+});
+$("#work8").hover(function() {
+    $(this).stop().animate({opacity:.4},200);
+    $("#giraffe").fadeIn();
+
+}, function() {
+    $(this).stop().animate({opacity:1},500)
+    $("#giraffe").fadeOut();
+});
      document.getElementById("submit").addEventListener('click', function(){
   var name = $("pname").val();
   if ($("#pname").val() &&  $("#mail").val()) {
@@ -31,13 +87,5 @@ $(document).ready(function(){
     alert("Please fill all fields!");
   }
      })
-    // $("#forms").submit(function(event){
-    //     let personName=$("#pname").val();
-    //     let emailAddress = $("#mail").val();
-    //     let typedMessage = $("#message").val()
-    //     if(personName!="" && emailAddress!="" && typedMessage!=""){
-    //         alert($("#name.text(personName))")+ "we have received your message. Thank you for reaching out to us.")
-    //     } else if(personName=="" && emailAddress=="" && typedMessage=="")
-    //     event.preventDefault();
-    // });
+
 });
