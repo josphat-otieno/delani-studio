@@ -3,10 +3,13 @@
     text-align: center;
     position: relative;
   }
+  @media(max-width: 868px){
+    .container{
+      background-color: cornflowerblue;
+    }
+  }
   .container1, .row {
     text-align: center;
-
-    
   }
   .centered{
       position: absolute;
